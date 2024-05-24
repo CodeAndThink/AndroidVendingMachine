@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/list_gate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="all of connection available"/>
+    <Button
+        android:id="@+id/search_btn"
+        android:text="Search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:text="Enter send data below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/send_data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="send hex string"
+        android:textSize="20dp"/>
+    <TextView
+        android:text="Receive data below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/receive_data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="receive hex string"/>
+    <Button
+        android:id="@+id/enter_btn"
+        android:text="Enter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/turn_on_led"
+            android:text="Turn on LED"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/turn_off_led"
+            android:text="Turn off LED"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/check_all_slot"
+            android:text="Check all slot"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/merge_1_2_slot"
+            android:text="Merge slot 1 and 2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/remove_merge_1_2_slot"
+            android:text="Remove merge 1 and 2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/remove_all_merge"
+            android:text="Remove all merge"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/check_close_open"
+        android:text="Check door status"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/check_all_motor"
+        android:text="Check all motor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="10"
+        android:rowCount="6">
+
+        <!-- Đặt các Button vào đây -->
+
+    </GridLayout>
+</LinearLayout>
